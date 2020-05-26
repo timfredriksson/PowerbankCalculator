@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="submitButton.css">
+    <script src="script.js"></script>
+    <title>PBC</title>
+  </head>
+  <body>
+    <h1>
+      Powerbank Calculator
+    </h1>
+    <hr />
+    <form>
+      <label class="someMargin" for="powerbankInput">Hur många mAh har din powerbank?</label>
+      <input class="someMargin" id="powerbankInput" name="powerbankInput" type="number"><br />
+      <label for="deviceInput">Hur många mAh har din enhet?</label>
+      <input name="deviceInput" type="number" id="deviceInput">
+    </form>
+    <button id="submitBtn" onclick="viewAnswer()">Fortsätt</button>
+  <p id="output"></p> 
+  <br />
+  <p id="outputNumberTwo"></p>
+  </body>
+</html>
