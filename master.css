@@ -32,7 +32,7 @@ h1 {
 }
 
 label {
-  font-family: 'acme', sans-serif; 
+  font-family: 'acme', sans-serif;
 }
 
 /* Class attributes */
@@ -63,4 +63,10 @@ label {
 
 #output {
   margin-top: 75px;
+  font-family: 'Acme', cursive;
+}
+
+#outputNumberTwo {
+  margin-top: 75px;
+  font-family: 'Acme', cursive;
 }
